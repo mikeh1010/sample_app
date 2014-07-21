@@ -20,6 +20,9 @@ end
 gem 'bootstrap-sass', '2.3.2.0'
 gem 'sprockets', '2.11.0'
 
+#bcrypt for hashed passwords
+gem 'bcrypt-ruby', '3.1.2'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '4.0.1'
 
