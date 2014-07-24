@@ -1,5 +1,5 @@
 SampleApp::Application.routes.draw do
-  get "users/new" #necessary for users/new routing to work
+  resources :users
 
   root 'static_pages#home'
   match '/help', to: 'static_pages#help', via: 'get'
